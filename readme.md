@@ -30,8 +30,6 @@ WonderVilla is a web application for managing property listings and reviews. It 
 
 ## Installation
 
-
-
 1. **Install dependencies:**
     ```bash
     npm install
@@ -83,3 +81,13 @@ WonderVilla is a web application for managing property listings and reviews. It 
 - Property listings can include images uploaded to Cloudinary.
 
 ## Project Structure
+
+- `models/` - Contains Mongoose models
+- `routes/` - Contains route definitions
+- `views/` - Contains EJS templates
+- `public/` - Contains static files (CSS, JS, images)
+- `config/` - Contains configuration files
+- `controllers/` - Contains controller logic
+- `middlewares/` - Contains custom middleware functions
+
+
